@@ -1,1 +1,0 @@
-# ceogawa.github.io
