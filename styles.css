@@ -2,26 +2,32 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(64, 54, 40);
+    background-color: rgb(255, 255, 255);
+}
+
+h1, h2, h3, p {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 li, a, button {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color:aliceblue;
+    color:rgb(0, 0, 0);
     text-decoration: none;
 }
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
 }
 
 .logo{
     cursor: pointer;
+    margin-right: auto;
     width: 40px;
     height: 40px;
 }
@@ -40,52 +46,19 @@ header{
 }
 
 .nav-links li a:hover{
-    color:brown;
+    color:rgb(150, 118, 255);
 }
 
 button{
+    margin-left: 20px;
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: rgb(199, 238, 248);
     border: none;
-     border-radius: 50px;
+    border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
 button:hover {
-    background-color: rgba(0, 136, 169, .8);
+    background-color: rgba(113, 164, 177, 0.8);
 }
-
-
-
-
-
-
-/* .navbar ul{
-    list-style-type: none;
-    background-color: rgb(135, 159, 159);
-    padding: 0px;
-    margin: 0px;
-    justify-content: right;
-    overflow: hidden;
-}
-
-main{
-    margin: 20px;
-}
-
-.navbar a{
-    color: black;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-}
-
-.navbar a:hover{
-    background-color: rgb(93, 110, 110);
-}
-
-.navbar li{
-    float: left;
-} */
