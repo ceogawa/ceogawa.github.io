@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3, p {
@@ -11,7 +12,6 @@ h1, h2, h3, p {
 }
 
 li, a, button {
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 16px;
     color:rgb(0, 0, 0);
@@ -47,13 +47,16 @@ header{
 .grid{
     display: grid;
     margin: 0px 10%;
-    grid-template-columns: .7fr .7fr .7fr;
-    grid-template-rows: 80px 80px 80px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
     place-items: center;
     /* column-gap: 10px; */
 }
 
-.grid i{  
+.grid i p{  
+    margin: 0px 0px;
+    font-style: normal;
+    /* margin: 0px 10px; */
     /* width: .7fr;*/
     /* padding: 15px 10px */
     /* height: 80px; */
@@ -61,9 +64,21 @@ header{
     /* border: 4px solid black; */
 }
 
+.grid i h4{  
+    margin: 0px 0px;
+    font-style: normal;
+    /* margin: 0px 10px; */
+    /* width: .7fr;*/
+    /* padding: 15px 10px */
+    /* height: 80px; */
+
+    /* border: 4px solid black; */
+}
+
+
 .project-img{
-    width: 100px;
-    height: 80px;
+    width: 1fr;
+    height: 100px;
 }
 
 .logo{
