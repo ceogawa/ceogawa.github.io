@@ -4,7 +4,7 @@
     padding: 0;
     color: #32373B;
     /* background-color: rgb(255, 255, 255); */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 h1, h2, h3, p {
@@ -42,11 +42,79 @@ header{
     background-color: rgb(170, 170, 255);
 }
 
-.section1, .section2, .section3, .section4 {
+.home, .projects, .coursework, .interests {
     margin: 20px 0px;
 }
 
-.grid{
+/* HOME PAGE */
+
+/* Responsive Personal Portfolio Website Using HTML CSS And JavaScript | Dark/Light Mode
+https://youtu.be/27JtRAI3QO8?si=0iuEBvu-f0MOHIkE */
+
+.home {
+    margin-top: 40px;
+    margin-bottom: 300px;
+}
+
+.home-container{
+    gap: 1rem;
+}
+
+.home-content-grid{
+    grid-template-columns: .5fr 3fr;
+    padding-top: 3.5rem;
+    align-items: center;
+}
+
+.home-social{
+    display: grid;
+    grid-template-rows: max-content;
+    row-gap: 1rem;
+}
+
+.home-social-icon{
+    font-size: 1.25rem;
+    width: 24px;
+    height: 24px;
+    margin-left: 40px;
+}
+
+.home-img{
+    /* clip-path: circle(20% at 20% 30%); */
+}
+
+.home-img-container{
+    width: 200px;
+    margin-left: 10%;
+}
+
+.home-data{
+    /* grid-column: 1/3; */
+}
+
+.home-title{
+    font-size: 22;
+}
+
+.home-subtitle{
+    font-size: 16;
+}
+
+.home-description{
+    font-size: 12;
+}
+
+.contact-button{
+    display:inline-block;
+    margin-left: 10%;
+    background-color: rgb(106, 139, 200);
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+/* PROJECTS PAGE*/
+
+.project-grid{
     display: grid;
     margin: 0px 10%;
     /* padding: 50px; */
@@ -59,19 +127,19 @@ header{
     /* column-gap: 10px; */
 }
 
-.grid i{
+.project-grid i{
     padding: 10px 0px;
     border: 1px solid black;
     background-color: rgb(209, 233, 255);
 }
 
-.grid i:hover{
+.project-grid i:hover{
     padding: 10px 0px;
     border: 1px solid black;
     background-color: rgb(120, 145, 168);
 }
 
-.grid i p{  
+.project-grid i p{  
     margin: 0px 0px;
     font-style: normal;
     /* margin: 0px 10px; */
@@ -82,7 +150,7 @@ header{
     /* border: 4px solid black; */
 }
 
-.grid i h4{  
+.project-grid i h4{  
     margin: 0px 0px;
     font-style: normal;
     /* margin: 0px 10px; */
