@@ -18,11 +18,52 @@ li, a, button {
     text-decoration: none;
 }
 
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(199, 238, 248);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(113, 164, 177, 0.8);
+}
+
+
 header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
+}
+
+.section1, .section2, .section3, .section4 {
+    margin: 20px 0px;
+}
+
+.grid{
+    display: grid;
+    margin: 0px 10%;
+    grid-template-columns: .7fr .7fr .7fr;
+    grid-template-rows: 80px 80px 80px;
+    place-items: center;
+    /* column-gap: 10px; */
+}
+
+.grid i{  
+    /* width: .7fr;*/
+    /* padding: 15px 10px */
+    /* height: 80px; */
+
+    /* border: 4px solid black; */
+}
+
+.project-img{
+    width: 100px;
+    height: 80px;
 }
 
 .logo{
@@ -49,16 +90,3 @@ header{
     color:rgb(150, 118, 255);
 }
 
-button{
-    margin-left: 20px;
-    padding: 9px 25px;
-    background-color: rgb(199, 238, 248);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-button:hover {
-    background-color: rgba(113, 164, 177, 0.8);
-}
