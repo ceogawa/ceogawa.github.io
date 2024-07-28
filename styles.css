@@ -235,6 +235,19 @@ https://youtu.be/27JtRAI3QO8?si=0iuEBvu-f0MOHIkE */
 }
 
 
+/* COURSEWORK PAGE */
+.coursework-list{
+    margin-left: 0px;
+    padding: 30px 0px;
+}
+
+.list-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 280px;
+
+}
+
 /* INDIVIDUAL PROJECT PAGES */
 .separate-page-container{
     padding-top: 50px;
