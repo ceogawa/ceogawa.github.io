@@ -55,6 +55,13 @@ header{
 .section-header{
     font-size: 22;
     padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.section-description{
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 
@@ -145,8 +152,8 @@ https://youtu.be/27JtRAI3QO8?si=0iuEBvu-f0MOHIkE */
 .project-grid{
     display: grid;
     margin: 0px 10%;
-    padding: 50px 0px;
-    grid-template-columns: repeat(3, 1fr);
+    padding: 50px 60px;
+    grid-template-columns: repeat(3, .7fr);
     /* grid-template-rows: repeat(2, 200px); */
     place-items: center;
     grid-row-gap: 10px;
@@ -158,7 +165,26 @@ https://youtu.be/27JtRAI3QO8?si=0iuEBvu-f0MOHIkE */
 .project-grid i{
     overflow: hidden;
     height: 450px;
-    padding: 20px;
+    width: 350px;
+    padding: 20px 20px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    /* box-shadow:
+    0px 0px 1.3px rgba(0, 0, 0, 0.081),
+    0px 0px 4.2px rgba(0, 0, 0, 0.119),
+    0px 0px 19px rgba(0, 0, 0, 0.2); */
+    box-shadow:
+  0px 0px 0.3px rgba(0, 0, 0, 0.044),
+  0px 0px 1.1px rgba(0, 0, 0, 0.066),
+  0px 0px 5px rgba(0, 0, 0, 0.11)
+;
+}
+
+.project-grid a{
+    overflow: hidden;
+    height: 450px;
+    width: 350px;
+    padding: 20px 20px;
     border-radius: 6px;
     background-color: #ffffff;
     /* box-shadow:
@@ -178,36 +204,47 @@ https://youtu.be/27JtRAI3QO8?si=0iuEBvu-f0MOHIkE */
 
 .project-grid img{
     height: 200px;
+    width: 310px;
 }
 
 .project-grid i p{  
     margin: 0px 0px;
     font-style: normal;
-    /* margin: 0px 10px; */
-    /* width: .7fr;*/
-    /* padding: 15px 10px */
-    /* height: 80px; */
-
-    /* border: 4px solid black; */
 }
 
 .project-grid i h4{  
     margin: 0px 0px;
     padding: 6px 0px;
     font-style: normal;
-    /* margin: 0px 10px; */
-    /* width: .7fr;*/
-    /* padding: 15px 10px */
-    /* height: 80px; */
-
-    /* border: 4px solid black; */
 }
 
+.project-grid a p{  
+    margin: 0px 0px;
+    font-style: normal;
+}
+
+.project-grid a h4{  
+    margin: 0px 0px;
+    padding: 6px 0px;
+    font-style: normal;
+}
 
 .project-img{
     width: 1fr;
     height: 100px;
 }
+
+
+/* INDIVIDUAL PROJECT PAGES */
+.separate-page-container{
+    padding-top: 50px;
+}
+
+/* PROJECT 1 - RAYTRACER */
+
+.raytracer-grid{
+}
+
 
 .logo{
     cursor: pointer;
