@@ -180,6 +180,10 @@ https://youtu.be/27JtRAI3QO8?si=0iuEBvu-f0MOHIkE */
 ;
 }
 
+.project-grid i:hover{
+    background-color: #ffdad7;
+}
+
 .project-grid a{
     overflow: hidden;
     height: 450px;
@@ -198,9 +202,12 @@ https://youtu.be/27JtRAI3QO8?si=0iuEBvu-f0MOHIkE */
 ;
 }
 
-.project-grid i:hover{
+
+.project-grid a:hover{
     background-color: #ffdad7;
 }
+
+
 
 .project-grid img{
     height: 200px;
@@ -234,6 +241,19 @@ https://youtu.be/27JtRAI3QO8?si=0iuEBvu-f0MOHIkE */
     height: 100px;
 }
 
+
+/* COURSEWORK PAGE */
+.coursework-list{
+    margin-left: 0px;
+    padding: 30px 0px;
+}
+
+.list-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 280px;
+
+}
 
 /* INDIVIDUAL PROJECT PAGES */
 .separate-page-container{
